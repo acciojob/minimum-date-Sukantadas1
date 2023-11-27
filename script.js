@@ -1,5 +1,16 @@
 function minDate(dates) {
-  //write you code here
+  //write you code h
+	
+    // Clone the array to avoid modifying the original array
+    const sortedDates = [...dates];
+
+    // Sort the cloned array in ascending order
+    sortedDates.sort();
+
+    // Return the first element, which is the minimum date
+    return sortedDates[0];
+
+
 }
 
 // Do not change the code
